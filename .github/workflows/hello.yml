@@ -3,7 +3,7 @@ name: My First Workflow
 on: push
 
 jobs:  
-  say-hello:
+   say-hello:
     runs-on:  ubuntu-latest
 
     steps:  
@@ -11,7 +11,7 @@ jobs:
         run: echo "Hello, Github Actions!"
       - name: hello
         run: echo"hi there"
-  say-bye:
+   say-bye:
     runs-on:  ubuntu-latest
 
     steps:  
