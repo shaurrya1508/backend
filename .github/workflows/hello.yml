@@ -12,6 +12,13 @@ jobs:
       - name: hello
         run: echo"hi there"
 
+  say-bye:
+    runs-on:  ubuntu-latest
+
+    steps:  
+      - name: Print message
+        run: echo "bye-bye, Github Actions!"
+      
         
 
   
